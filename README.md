@@ -1,4 +1,4 @@
-# Make a new project in Ximera
+# My new project in Ximera
 
 This contains acitivites for prealgebra.
 
