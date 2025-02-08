@@ -1,6 +1,6 @@
 # My new project in Ximera
 
-This contains acitivites for prealgebra.
+This contains acitivites for prealgebra.  This was copied from XimeraNewProject.
 
 
 ## License
