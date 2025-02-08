@@ -1,6 +1,6 @@
 # Make a new project in Ximera
 
-Use this repository to create a new Ximera project by clicking the "Use This Template" button in the upper right hand corner.
+This contains acitivites for prealgebra.
 
 
 ## License
