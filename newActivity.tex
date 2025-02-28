@@ -55,4 +55,93 @@ $\lim\limits_{x \to 2} f(x) = \answer{2}$
 %\end{center}
 
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+    \item Calculus was discovered in the seventeenth century by
+    Leibniz and Newton, independently.  The development of calculus was
+    motivated in large part by two geometric problems:
+    
+    \begin{enumerate}
+    \item Finding areas of plane regions.
+    
+    \item Finding tangent lines to curves.
+    \end{enumerate}
+    
+    
+    \vspace{0.1in}
+    \item \textbf{The Tangent Line Problem}
+    
+    In algebra you learned how to find the slope of a line, which
+    measures the change in $y$ for a given change in $x.$ For example,
+    a slope of $m=-\frac{32}{1}$ indicates that when $x$ increases by
+    1, the value of $y$ decreases by 32. The slope of a line is also a
+    measure of the steepness of the line and is constant. Intuitively,
+    we know that the steepness of a curve is \emph{not} constant.  So
+    how do we measure the steepness or slope of a curve at a
+    particular point?
+    
+    \vspace{0.1in} We draw a line that touches the curve at the point.
+    This line is called a \textbf{tangent line}. The tangent line and
+    curve have this point in common, so we define the slope of the
+    curve at this point to be the slope of the tangent line.
+    
+    \vspace{0.2in} \fbox{\parbox{6.2in}{\textbf{The slope of a curve at
+    a point is equal to the slope of the tangent line at that
+    point}.}}
+    
+    \vspace{0.2in}
+    Below is the graph of $y=e^x$ along
+    with its tangent line at $x=1.2.$  To find the slope of the tangent line, we need to
+    know two points that lie on the line, but we only know one $(1.2,
+    e^{1.2}).$ In the next chapter, we will see how to find the slope
+    of the tangent line without finding a second point on the line.
+    This process involves finding a limit, which is the focus of this
+    section.
+    
+    %with(Student[Calculus1])
+    %z:= plots[pointplot]([1.2, exp(1.2)], symbol = solidcircle, color = black, symbolsize = 23)
+    %z2:= plot([exp(x), Tangent(exp(x), x = 1.2, showpoint = true)], x = -4 .. 4, -5 .. 10, color = [black, black], linestyle = [1, 3], thickness = 3, labelfont = [COURIER, 1], axesfont = ["HELVETICA", "COMPUTER MODERN", 17])
+    %display({z, z2})
+    
+    %Old
+    %with(Student[Calculus1][Tangent])
+    %plot([exp(x), Tangent(exp(x), x = 1.2, output = line)], x = -4 .. 4, -5 .. 10, color = [black, black], linestyle = [1, 3], thickness = 2)
+    
+    
+    \vspace{0.1in}
+    
+    \hspace{0.4in}
+    \includegraphics[height=2in, width=2in]{plot1s22.eps}
+    
+    
+    \vspace{0.2in}
+    \item The most basic use of \textbf{limits} is to
+    describe how a function $y=f(x)$ behaves as $x$ approaches a
+    particular value.
+    
+    
+    
+    \newpage
+    \fbox{\parbox{6.2in}{\textbf{\fbox{\parbox{6.1in}{\textbf{Limit Notation}}}}
+    
+    \vspace{0.1in}
+    The \textbf{limit of a function} $y=f(x)$ is the value that $f(x)$
+    approaches as $x$ approaches a fixed value $c.$  The value of
+    the limit is commonly denoted by $L$.  The mathematical notation
+    for limits is given below.
+    \[ \lim_{x \rightarrow c} f(x) = L \hspace{0.5in} \small{\textrm{Read as:} \ ``\textrm{\textbf{The limit of} $f(x)$ \textrm{\textbf{as}} $x$
+    \textrm{\textbf{approaches}} $c$ is $L$."}} \] }}
+    
+    \textbf{Remark:} This notation allows us to mathematically describe the behavior of a function around a point at
+    which it is undefined or discontinuous.  It also allows us to describe the end behavior of the function, that is how does
+    the function behave as $x \rightarrow \pm \infty$.
+    
+    
+    \vspace{0.2in} \item[$\bigstar$] \textbf{Problem I:} \ Use a limit
+    to describe the behavior of the function $f(x)=\ln x$ as $x$
+    approaches $1.$
+
+
 \end{document}
