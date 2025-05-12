@@ -21,9 +21,9 @@ YOUR_EMAIL=""
 # !! DO NOT SAVE THE KEY IN THIS config.txt FILE   !!
 #
 
-  "${XIMERA_NAME:=mathproblems}"
+  :"${XIMERA_NAME:=mathproblems}"
 ## : "${XIMERA_URL:=http://localhost:2000/}"
-  "${XIMERA_URL:=https://ximera.osu.edu/}"  Uncomment to deploy to ximera server
+ : "${XIMERA_URL:=https://ximera.osu.edu/}"  Uncomment to deploy to ximera server
 ## : "${XIMERA_URL:=https://set-p-dsb-zomercursus-latest.cloud-ext.icts.kuleuven.be/}"
 ## : "${XIMERA_URL:=https://set.kuleuven.be/voorkennis/}"
 
